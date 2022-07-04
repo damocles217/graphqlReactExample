@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+import { hydrateRoot } from "react-dom/client";
 import { ApolloProvider } from "@apollo/client";
 
 // Import context api
@@ -14,11 +14,14 @@ import App from "./components/App";
 import "./sass/main.scss";
 import "./assets/fonts/style.css";
 
-render(
+const divRoot = document.querySelector("#root");
+
+const child = (
 	<ApolloProvider client={client}>
 		<UserProvider>
 			<App />
 		</UserProvider>
-	</ApolloProvider>,
-	document.querySelector("#root")
+	</ApolloProvider>
 );
+
+divRoot ? hydrateRoot(divRoot, child) : null;
