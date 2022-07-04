@@ -1,0 +1,19 @@
+@media screen and (max-width: 1580px) {
+	#menu-label {
+		#drop-menu {
+			display: flex;
+			color: white;
+			font-size: 1.6em;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.links-menu {
+			display: none;
+		}
+
+		.links-menu:hover {
+			background-color: #233987;
+		}
+	}
+}

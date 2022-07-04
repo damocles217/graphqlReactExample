@@ -1,0 +1,82 @@
+.forms {
+	margin-top: 30%;
+	background-color: rgb(54, 54, 54);
+	border: 20%;
+	border-style: solid;
+	border-color: rgb(54, 54, 54);
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: auto;
+	padding-bottom: 5%;
+}
+
+.forms-signup {
+	margin-top: 20%;
+	background-color: rgb(54, 54, 54);
+	border: 20%;
+	border-style: solid;
+	border-color: rgb(54, 54, 54);
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: auto;
+	padding-bottom: 5%;
+}
+
+.forms-fill {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+.inputs {
+	color: white;
+	background-color: rgb(54, 54, 54);
+	width: 80%;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-color: white;
+	margin-bottom: 10%;
+}
+.inputs::placeholder {
+	color: white;
+}
+
+.image-container {
+	width: 100%;
+	display: flex;
+	height: auto;
+	background-color: white;
+	img {
+		max-width: 90%;
+		height: 90%;
+	}
+}
+
+.send {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	a {
+		width: 40%;
+		color: white;
+		font-size: 0.9em;
+	}
+	button {
+		font-size: 0.9em;
+		width: 40%;
+		color: white;
+		border: none;
+		background-color: #56266d;
+		padding: 1%;
+	}
+}
+
+.sun-editor {
+	z-index: 0 !important;
+}

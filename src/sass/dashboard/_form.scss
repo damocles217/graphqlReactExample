@@ -1,0 +1,11 @@
+.form-editor {
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+
+	.input-name {
+		width: 70%;
+		margin-top: 5%;
+	}
+}

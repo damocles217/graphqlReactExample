@@ -1,0 +1,6 @@
+node_modules
+test
+jest.*
+.editorconfig
+.eslintignore
+.eslintrc.js
